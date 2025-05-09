@@ -1,0 +1,115 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #181818; /* Dark background, like Monkeytype */
+    color: #f0f0f0; /* Light text color */
+    margin: 0;
+}
+
+.container {
+    background-color: #282828; /* Darker container background */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 80%;
+    max-width: 700px;
+}
+
+h1 {
+    color: #a8a8a8; /* Muted heading color */
+    margin-bottom: 30px;
+}
+
+.text-display {
+    background-color: #383838; /* Darker text display background */
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 1.5em; /* Larger font for better readability */
+    white-space: pre-wrap;
+    letter-spacing: 1px;
+}
+
+.text-display span {
+    margin-right: 5px;
+    transition: color 0.1s ease-in-out; /* Smooth color transition */
+}
+
+.text-display .correct {
+    color: #a9b853; /* Green-yellow for correct */
+}
+
+.text-display .incorrect {
+    color: #cc6666; /* Red for incorrect */
+    text-decoration: underline;
+}
+
+.input-field {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 25px;
+    border: 1px solid #505050; /* Darker border */
+    border-radius: 5px;
+    font-size: 1.2em;
+    background-color: #383838;
+    color: #f0f0f0;
+    box-sizing: border-box;
+    outline: none; /* Remove default focus outline */
+}
+
+.input-field:focus {
+    border-color: #a9b853; /* Highlight border on focus */
+}
+
+.results {
+    margin-bottom: 30px;
+    color: #a8a8a8;
+}
+
+.results p {
+    margin: 8px 0;
+    font-size: 1.1em;
+}
+
+.controls button {
+    padding: 12px 25px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.controls #start-button {
+    background-color: #a9b853; /* Green-yellow start button */
+    color: #282828;
+}
+
+.controls #reset-button {
+    background-color: #cc6666; /* Red reset button */
+    color: #f0f0f0;
+}
+
+.controls button:hover {
+    opacity: 0.9;
+}
+
+.credits {
+    margin-top: 30px;
+    padding: 15px;
+    text-align: center;
+    color: #a8a8a8; /* Muted text color for credits */
+    font-size: 0.9em;
+    border-top: 1px solid #505050; /* Subtle top border */
+}
+
+.credits p {
+    margin: 5px 0;
+}
+
+
